@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #000;
+    color: white;
+    font-family: sans-serif;
+}
+
+.menu i{
+    font-size: 2rem;
+}
+
+nav{
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+
+}
+nav,.left,.right{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+.delivery,.pickup{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    text-transform: uppercase;
+    background-color: #1C1816;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+}
+
+.delivery{
+    border: 2px solid #EA002A;
+    
+}
+
+.bucket{
+    position: relative;
+    color: black;
+}
+.quantity{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    padding: 0.4rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #EA002A;
+    border: none;
+    color: white;
+}
+
+.front-page{
+    background-image: url('https://www.kfcpakistan.com/images/31901040-378f-11ee-a581-4b8928a7b83b-995x356-family-festival-3_desktop_image-2023-08-10150424.jpg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reorder{
+    width: 50%;
+    display: flex;
+    margin: 20px auto;
+    text-transform: uppercase;
+    background-color: #EA002A;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.explore{
+    width: 70%;
+    margin: auto;
+    margin-bottom:2rem ;
+
+}
+
+.explore h1{
+    text-transform: uppercase;
+}
+
+.items{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.card img{
+    width: 200px;
+}
+
+hr{
+    width: 10%;
+    background-color:#EA002A ;
+    height: 3px;
+    margin-top: 0.6rem;
+    border: none;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1C1816;
+    padding: 2rem;
+    border-radius: 50% 50% 5px 50%;
+    position: relative;
+}
+
+.dot{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    right: 10px;
+    background-color: black;
+    bottom: 10px;
+}
+
+.best-seller{
+    width: 70%;
+    margin: auto;
+
+}
+.my-items{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.rectangle{
+    background-color: #1C1816;
+    position: relative;
+}
+
+.price{
+    clip-path: polygon(100% 36%, 100% 50%, 100% 65%, 0 65%, 28% 51%, 0 36%);
+    background-color: #EA002A;
+    padding: 2rem;
+    width: 20%;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 0;
+}
+
+.price h5{
+    padding: 0;margin: 0;
+}
